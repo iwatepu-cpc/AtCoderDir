@@ -4,7 +4,9 @@
 
 ```sh
 $ git clone https://github.com/iwatepu-cpc/AtCoderDir
-$ ln -s -i $(readlink -f AtCoderDir/atcoder) $HOME/.local/bin/atcoder
+$ cd AtCoderDir
+$ pip install -r requirements.txt
+$ ln -s -i $(readlink -f atcoder) $HOME/.local/bin/atcoder
 ```
 
 ## Usage
