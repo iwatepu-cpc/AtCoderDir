@@ -19,5 +19,5 @@ def get_samples(url):
         if isample is None:
             break
         osample = html.find(string='出力例 '+str(i))
-        samples.append((isample.parent.next_sibling.text, osample.parent.next_sibling.text))
+        samples.append((isample.parent.next_sibling.text.replace('\r', ''), osample.parent.next_sibling.text.replace('\r', '')))
     return samples
