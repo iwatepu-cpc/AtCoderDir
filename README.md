@@ -3,7 +3,8 @@
 ## Installation
 
 ```sh
-$ ln -s -i $(readlink -f /path/to/atcoder) $HOME/.local/bin/atcoder
+$ git clone https://github.com/iwatepu-cpc/AtCoderDir
+$ ln -s -i $(readlink -f AtCoderDir/atcoder) $HOME/.local/bin/atcoder
 ```
 
 ## Usage
