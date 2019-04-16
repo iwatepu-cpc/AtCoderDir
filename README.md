@@ -1,5 +1,11 @@
 # AtCoderDir
 
+## Installation
+
+```sh
+$ ln -s -i $(readlink -f /path/to/atcoder) $HOME/.local/bin/atcoder
+```
+
 ## Usage
 
 Requirements:
@@ -7,7 +13,7 @@ Requirements:
 - requests
 - bs4
 
-```
+```sh
 # Fetch task samples of ABC124
 $ ./atcoder https://atcoder.jp/contests/abc124
 
