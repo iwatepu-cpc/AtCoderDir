@@ -15,7 +15,7 @@ Requirements:
 
 ```sh
 # Fetch task samples of ABC124
-$ ./atcoder https://atcoder.jp/contests/abc124
+$ atcoder https://atcoder.jp/contests/abc124
 
 # Solve and then Test!
 $ cd abc124/A
