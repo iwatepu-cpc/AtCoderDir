@@ -3,10 +3,12 @@ import AtCoderTasks
 import os
 import argparse
 
+__basepath__ = os.path.dirname(__file__)
 __makefile_template__ = ''
-__checker_path__ = os.path.abspath('check.sh')
+__makefile_template_path__ = os.path.join(__basepath__, 'Makefile.template')
+__checker_path__ = os.path.join(__basepath__, 'check.sh')
 
-with open('Makefile.template') as f:
+with open(__makefile_template_path__) as f:
     __makefile_template__ = f.read()
 
 def fetch(url):
